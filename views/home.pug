@@ -1,0 +1,44 @@
+extends base.pug
+ 
+
+
+block style 
+    style   
+        include  ../static/style.css
+
+block content 
+    
+    section#introsection 
+            div  Welcome to shashank's dance academy 
+            div.small  Eat sleep dance repeat
+    section#missionsection 
+            h2   Our mission
+            div.card
+                h3 Dance perfection
+                div.card-box
+                    div.card-img
+                        img(src = "../static/img/logo2.png")
+                    div.card-content
+                        p This is the best dance academy of the universe
+
+            div.card
+                h3 Dance the way you like 
+                div.card-box
+                    div.card-img
+                        img(src = "../static/img/logo2.png")
+                    div.card-content
+                        p This is the best dance academy of the universe
+
+            div.card
+                h3 Dance style
+                div.card-box
+                    div.card-img
+                        img(src = "../static/img/logo2.png")
+                    div.card-content
+                        p This is the best dance academy of the universe
+    section#sponsorssection 
+            h2 our sponsors
+            div#sponsor
+                img(src = "../static/img/logo1.png" , alt = "sponsors-image" , class = "spimage")
+                img(src = "../static/img/logo3.png" , alt = "sponsors-image" , class = "spimage")
+                img(src = "../static/img/logo4.png" , alt = "sponsors-image"  , class = "spimage")

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Josefin+Sans&family=Oswald:wght@600&family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#logo{
+    display: flex;
+    filter: invert(1);
+    align-items: center;
+    margin: 0px 25px;
+}
+#logo img{
+    height: 40px;
+}
+#navbar{
+background-color:rgb(232, 95, 95);
+padding: 8px 8px;
+font-family: 'Baloo 2', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+#navbar li a{
+text-decoration: none;
+color: white;
+font-size: 1.1rem;
+font-size: 20px;
+}
+#navbar li a:hover{
+    color: black;
+}
+
+#navbar li {
+list-style: none;
+padding: 5px 35px;
+}
+#navbar ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+#introsection {
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background : url('/static/dance.jpg') center/cover no-repeat;
+color: white;
+font-family: 'Oswald', sans-serif;
+font-size: 30px;
+padding-bottom: 60px;
+}
+#sponsorssection {
+    height: 300px;
+    background-color:rgb(244, 134, 134);
+}
+#sponsorssection h2 {
+   text-align: center;
+   padding: 12px;
+   font-family: 'Oswald', sans-serif;
+   font-size: 36px;
+}
+#sponsor{
+    height: 103px;
+    width: 1000px;
+    margin: auto; 
+}
+.spimage{
+    height: 155%;
+    margin: 20px;
+}
+#introsection div.small{
+font-size: 21px;
+padding: 5px;
+}
+#missionsection{
+    height: 350px;
+    margin: auto;
+    display: block;
+    width: 67%;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 30%;
+    height: 209px;
+    margin: 27px 12px;
+    display: inline-block;
+    background-color: #fbeeee;
+}
+.card h3{
+    text-align: center;
+    margin:  16px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 85px;
+    margin: 14px;
+    padding: 6px;
+}
+.card-content p{
+    font-size: 19px;
+}
+.card-img img{
+    height: inherit;
+}
+#missionsection h2{
+    text-align: center;
+    padding: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+}
+#footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+}

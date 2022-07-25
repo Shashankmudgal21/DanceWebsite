@@ -1,0 +1,53 @@
+doctype html 
+html 
+    head 
+        style 
+            include ../static/style.css
+    body 
+        nav#navbar 
+            ul 
+                div#logo
+                    img(src = "../static/img/logo.png")
+                    |hda
+                li #[a(href = "/") Home ]
+                li #[a(href = "/") About ]
+                li #[a(href = "/") Services ]
+                li #[a(href = "/") Class info]
+                li #[a(href = "/") Contact us]
+        section#introsection 
+            div  Welcome to shashank's dance academy 
+            div.small  Eat sleep dance repeat
+        section#missionsection 
+            h2   Our mission
+            div.card
+                h3 Dance perfection
+                div.card-box
+                    div.card-img
+                        img(src = "../static/img/logo2.png")
+                    div.card-content
+                        p This is the best dance academy of the universe
+
+            div.card
+                h3 Dance the way you like 
+                div.card-box
+                    div.card-img
+                        img(src = "../static/img/logo2.png")
+                    div.card-content
+                        p This is the best dance academy of the universe
+
+            div.card
+                h3 Dance style
+                div.card-box
+                    div.card-img
+                        img(src = "../static/img/logo2.png")
+                    div.card-content
+                        p This is the best dance academy of the universe
+        section#sponsorssection 
+            h2 our sponsors
+            div#sponsor
+                img(src = "../static/img/logo1.png" , alt = "sponsors-image" , class = "spimage")
+                img(src = "../static/img/logo3.png" , alt = "sponsors-image" , class = "spimage")
+                img(src = "../static/img/logo4.png" , alt = "sponsors-image"  , class = "spimage")
+        footer#footer
+            | Copyright © 2019 ShashankAcademy.com | All Rights Reserved
+            
